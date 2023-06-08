@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Anek Devanagari', sans-serif;
+}
+
+/* INDEX.PHP */
+#main {
+    background-image: url("../img/backgroundImg.jpg");
+    min-height: 100vh;
+}
+
+nav img{
+    width: 10%;
+}
+
+.input {
+    width: 100%;
+}
+
+#shopHeader {
+    background-image: url("../img/shopBackground.jpg");
+    background-position: bottom;
+}
+#mainSection img{
+    width: 35%;
+    margin:0px auto;
+}
+#heading h1{
+    width: 30%;
+    margin:0px auto;
+    text-align: center;
+}
+#paginationNav,#poll{
+    margin:0px auto;
+}
+footer ,#contactHeader{
+    background-image: url("../img/footerBackground.jpg");
+}
+#authorHeader{
+    background-image: url("../img/authorBackground.jpg");
+}
+#transparent{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(000,000,000,0.5);
+}
+.contactSection{
+    min-height: 50vh;
+}
+#pictureHolder,#contactForm{
+    position: relative;
+}
+#orange1{
+    width: 200px;
+    position: absolute;
+    top:15em;
+    left: 30em;
+}
+#orange2{
+    width: 200px;
+    position: absolute;
+    top:-15em;
+    left: 60em;
+}
+#formAbsolute{
+    position: absolute;
+    top:5em;
+    left:22em;
+    z-index: 2;
+}
+.greenColor{
+    color:#389104;
+}
+#btn-send{
+    background-color: #389104;
+    border-color: #389104;
+    margin-left:9em;
+    margin-top: 2em;
+    border-radius: 15px;
+}
+
+/* PAGES FOR ADMIN TEMPLATE*/
+
+#dashboard{
+    height: 100vh;
+    background-color: rgba(17,24,39);
+    position: sticky;
+    top:0;
+}
+
+#dashboard p {
+    font-size: 2em;
+    width: 80%;
+}
+
+#dashboard i {
+    width:20%;
+    font-size: 2em;
+    color:white;
+}
+#dashboardMenu{
+    padding: 0px;
+}
+#dashboardMenu li{
+    width:100%;
+    margin:1em 0em 1em 0em;
+}
+#dashboardMenu a{
+    font-size: 1.5em;
+    color:white;
+    width:100%;
+    padding: 0.5em 0em 0.5em 1em;
+}
+
+#dashboardMenu li:hover{
+    background-color: rgba(255,255,255,0.2);
+}
+#panelHeader{
+    position: sticky;
+    top:0;
+    border-bottom: 5px solid rgba(79,70,229);
+    background-color: white;
+    z-index: 1;
+}
+#panelHeader h1{
+    font-size: 2em;
+    font-weight: 700;
+}
+#adminInicial{
+    width:30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: rgba(79,70,229);
+    color:white;
+}
+
+#adminInicial p {
+    font-size: 1.5em;
+    width: 100%;
+}
+
+#adminMain{
+    background-color: #f0f0f5;
+    margin: 0px;
+}
+
+.champImg {
+    width:30%;
+}
+#champTable tr td,#userTable tr td{
+    padding: 1em 2em 1em 2em;
+}
+#champTable tr,#userTable tr{
+    border-bottom: 1px solid black;
+}
+
+#fittproSymbol{
+    width: 7em;
+}
+#fittproSymbol img{
+    width: 100%;
+    height: 100%;
+}
+
+.paddingCenter{
+    padding:8em 0em 0em 10em;
+}
+
